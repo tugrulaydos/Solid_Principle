@@ -36,7 +36,6 @@ namespace Solid_Principle
 
         }
 
-
     }
 
 
@@ -75,8 +74,6 @@ namespace Solid_Principle
             cloud = new Azure();
             cloud.MachineLearning();
             (cloud as ITranslatable)?.Translate();
-
-
 
         }
     }

@@ -1,11 +1,8 @@
 ﻿
-
 //Open Closed Principle, OOP tasarımlarda bir sınıfın gereksinimler doğrul-
 //sunda değiştirmeye gerek duyulmaksızın genişletilebilir bir şekilde tasar-
 //lanmasını savunan bir prensiptir.
-
-//Kodun Değiştirilmesi --> var olanın yenş gereksinime göre güncel halinin işlenmesidir.
-
+//Kodun Değiştirilmesi --> var olanın yeni gereksinime göre güncel halinin işlenmesidir.
 //Kodun genişletilmesi--> Kodu değiştirmeksizin yeni gereksinime göre gelecek
 //olan davranışın uygulamaya eklenebilmesidir.
 
@@ -46,8 +43,7 @@ class Garanti:IBanka
 }
 
 class HalkBank:IBanka
-{
-    string _hesapNo;
+{    
 
     public void GonderilecekHesapNo(string hesapNo)
     {

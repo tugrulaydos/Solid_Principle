@@ -5,6 +5,11 @@
 //Bu prensip; geliştiricinin herhangi bir türe bağımlı olmadığını, bilakis
 //türlerin/yani nesnelerin geliştiriciye bağımlı olduğunu savunur.
 
+//DI, bir sınıfın concrete somut sınıflara değil onların abstraction'larına bağlı olması gerektiğini önerir.
+//Böylece o sınıf herhangi bir somut sınıfa bağlı olmayacak, tam tersi somut sınıf(lar) ilgili sınıfa 
+//bağlılık sergiliyor olacaktır.
+//Böylece hiç bir sınıf concrete yapılanmalara değil onların abstractionlarına güvenecektirler.
+
 class MailService
 {
     public void SendMail(IMailServer mail)
